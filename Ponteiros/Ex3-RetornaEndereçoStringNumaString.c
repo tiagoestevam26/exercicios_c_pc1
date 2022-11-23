@@ -47,7 +47,7 @@ char *strstr(char *s, char *s2)
             }
         }
     }
-    if (aux == cont2 - 1 || aux == cont2)
+    if (aux >= cont2 - 1)
     {
         return (&s[m]);
     }
