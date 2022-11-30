@@ -47,7 +47,7 @@ int *intersecao(int *q, int *r, int *w)
     }
     for (i = 0; i < cont - 2; i++)
     {
-        printf("%i ", w[i]);
+        printf("%i ", w[i]);    
     }
     printf("\n");
     for (i = 0; i < cont - 2; i++)
