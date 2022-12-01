@@ -7,7 +7,7 @@ conte quantas vezes a letra “a” aparece no nome.
 
 int main()
 {
-    FILE *arquivo;
+    FILE *arquivo; 
     char nome[100];
     arquivo = fopen("arquivo.bin", "rb");
     if (arquivo == NULL)

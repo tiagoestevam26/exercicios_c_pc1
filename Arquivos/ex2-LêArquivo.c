@@ -5,7 +5,7 @@ conte quantas vezes a letra “a” aparece no nome.
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+ 
 int main()
 {
     FILE *arquivo;

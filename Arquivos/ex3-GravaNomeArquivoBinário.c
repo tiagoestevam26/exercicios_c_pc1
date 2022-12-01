@@ -8,7 +8,7 @@ binário.
 int main()
 {
     FILE *arquivo;
-    char nome[100];
+    char nome[100]; 
     printf("Digite o nome: ");
     gets(nome);
     arquivo = fopen("arquivo.bin", "wb");
